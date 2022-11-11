@@ -1,3 +1,19 @@
+.btns{
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	padding:8px 12px;
+	color:#fff;
+	background-color:#47b2e4;
+	border-radius:50px;
+}
+.span{color: #fff;
+    font-size: 20px;}
+.banner-text i{font-size:24px;
+    padding-left: 18px;
+    padding-right: 12px;
+}
+.btns:hover{background-color:#209dd8;color:#fff;}
 .me-auto{
 	margin-left:200px;
 }
@@ -21,12 +37,17 @@
     color: #47b2e4;
 }
 .btn{
-	border-radius:50px;
 	border-color:#47b2e4;
 	
 }
 .btn-primary{
 	background-color:#023b6d;
+	border-radius:50px;
+}
+.btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+    padding: 8px 17px 11px 17px;
 }
 .deepdropdown{
     margin-bottom: 0;
@@ -37,6 +58,7 @@
 	opacity:0;
 	visibility:hidden;
 	transition:all 0.5s ease;
+	box-shadow:1px 1px 6px white;
 }
 .dropdown:hover .deepdropdown{
 	transform:translateY(0);
@@ -52,3 +74,111 @@
 }
 .dropdown-menu:hover .dropdown-item{color:#47b2e4;}
 .deepdropdown:hover .dropdown-item{color:#47b2e4;}
+.banner-content{background-color:#023b6d;
+        height:500px;
+
+}
+.banner-content a{
+	text-decoration:none;
+	color:#fff;
+}
+.banner-content a:hover i{
+	color:#47b2e4;
+}
+.banner-text p{
+	font-size:26px;
+	color:#ffffff99;
+}
+.banner-text h1{
+	font-size:49px;
+	color:#fff;
+	padding-bottom:12px;
+}
+.banner-text{padding-top:96px;
+color:#fff;}
+.banner-img img{
+	width:100%;
+}
+.logos img{
+	width:63%;
+	filter:grayscale(1);
+	opacity:0.6;
+	transition:all 0.3s ease;
+	font-size:20px;
+	
+}
+.logos{
+	margin-top:10px;
+
+}
+.logos img:hover{
+    filter:grayscale(0);
+	opacity:1;
+}
+.client{
+	background-color:#f3f5fa;
+	height:100px;
+}
+
+.logos:hover img{
+	transform:scale(1.1);
+}
+.text h1{
+	color:#023b6d;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:28px;
+}
+.text-content p{
+	font-size:18px;
+}
+.text-content ul {
+	list-style-type:none;
+	padding-left:0px;
+}
+.text-content ul li{
+	padding-bottom:10px;
+}
+.text-content ul i{color:#47b2e4;}
+.aboutus-text h1{
+	color:#37517e;
+	padding-top:50px;
+}
+.aboutus-text p{
+	color:#848484;
+	font-size:16px;
+}
+.aboutus{
+	background-color:#f3f5fa;
+}
+.accordion-item{
+	margin-bottom:16px;
+} 
+.accordion:hover .accordion-item.accordion-header h2{
+	color:#47b2e4;
+}
+.accordion-item span{
+	color:#47b2e4;
+}
+.aboutus-img img{
+	width:650px;
+}
+.aboutus-img{padding-top:50px;}
+.skill-img img{
+	width:100%;
+}
+.skills{
+	padding-top:40px;
+}
+.skill-percent h1{
+	           font-weight: 700;
+			   font-size:32px;
+			   color: #37517e;
+}
+.skill-percent p{
+	font-style:italic;
+	margin-bottom:26px;
+	}
+.progress{
+	margin-bottom:38px;
+}
