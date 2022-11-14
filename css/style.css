@@ -117,7 +117,7 @@ color:#fff;}
 }
 .client{
 	background-color:#f3f5fa;
-	height:100px;
+	height:130px;
 }
 
 .logos:hover img{
@@ -154,11 +154,13 @@ color:#fff;}
 .accordion-item{
 	margin-bottom:16px;
 } 
+
 .accordion:hover .accordion-item.accordion-header h2{
 	color:#47b2e4;
 }
 .accordion-item span{
 	color:#47b2e4;
+	padding-right:16px;
 }
 .aboutus-img img{
 	width:650px;
