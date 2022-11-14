@@ -100,7 +100,7 @@ color:#fff;}
 	width:100%;
 }
 .logos img{
-	width:63%;
+	width:100px;
 	filter:grayscale(1);
 	opacity:0.6;
 	transition:all 0.3s ease;
@@ -181,4 +181,47 @@ color:#fff;}
 	}
 .progress{
 	margin-bottom:38px;
+}
+.service{
+	background-color:#f3f5fa;
+	margin-top:40px;
+	height:500px;
+}
+.service-head{
+	text-align:center;
+}
+.service-head h1{
+	color:#37517e;
+	padding-top:26px;
+}
+.service-content{
+	height:250px;
+	box-shadow:1px 1px 6px #ccc;
+	background-color:#fff;
+	padding-left: 24px;
+    padding-top: 67px;
+}
+.service-content h4 a{
+	text-decoration:none;
+	color:#37517e;
+}
+
+.service-content i{
+    color:#47b2e4;
+    font-size: 26px;
+	    padding-bottom: 10px;
+    padding-left: 6px;
+}
+.call{
+	background-image:url('images\cta-bg.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+.port-text{
+	text-align:center;
+}
+.port-text h1{
+	color:#37517e;
+	
 }
