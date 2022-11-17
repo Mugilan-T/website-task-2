@@ -82,8 +82,12 @@ header{
 .dropdown-menu:hover .dropdown-item{color:#47b2e4;}
 .deepdropdown:hover .dropdown-item{color:#47b2e4;}
 .banner-content{background-color:#023b6d;
-        height:500px;
+        height:525px;
 
+}
+
+.banner-img{
+    padding-top: 77px;
 }
 .banner-content a{
 	text-decoration:none;
@@ -269,9 +273,14 @@ color:#fff;}
 	background-color:#fff;
 	padding-left: 24px;
     padding-top: 67px;
+	transition: margin 0s;
+  transition:all 0.5s ease;
 	
 }
-
+.service-content:hover{
+	 margin: -20px 0px 0px 0px;
+}
+.service-content:hover a{color:#47b2e4;}
 .service-content h4 a{
 	text-decoration:none;
 	color:#37517e;
@@ -403,6 +412,31 @@ color:#fff;}
 }
 .team-head{
 	text-align:center;
+}
+.team-head h1{
+	color:#37517e;
+	margin-top:40px;
+	margin-bottom:36px;
+	position:relative;
+	padding-bottom:10px;
+}
+.team-head h1::before{
+	content:"";
+    position:absolute;
+    width:83px;
+    height:1px;
+    background-color:#ddd;
+	bottom:0;
+	left:47%;
+}
+.team-head h1::after{
+	  content:"";
+    position:absolute;
+    width:35px;
+    height:2px;
+    background-color:#47b2e4;
+	bottom:0;
+	left:49%;
 }
 .team-img{
 	margin-bottom:24px;
