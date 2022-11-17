@@ -725,3 +725,25 @@ color:#fff;}
     color: #fff;
 }	
 .contact-address img{width:80%;}
+.search-txt {
+	text-align:center;
+	background-color:#f3f5fa;
+}
+.search-txt h3{
+	color:#37517e;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.search-txt input {
+    width: 40%;
+    padding: 2px 3px 13px 4px;
+}
+.btn-light.active{
+background-color: #0dcaf0;
+    color: #fff;
+	border-radius:50px;
+}
+.btn-light.active:hover{
+	background-color:#23a3df;
+	color:#fff;
+}
