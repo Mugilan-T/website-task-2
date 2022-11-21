@@ -1,3 +1,9 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
 .btns{
 	display:inline-block;
 	text-decoration:none;
@@ -95,6 +101,7 @@ header{
         height:525px;
 
 }
+
 
 .banner-img{
     padding-top: 77px;
@@ -420,6 +427,23 @@ color:#fff;}
 	padding-left: 18px;
     padding-bottom: 10px;
 	background-color:rgba(7 25 83 / 42%);
+	position:relative;
+}
+.port-img a:hover{color:#47b2e4;}
+.port-link{
+	 position:absolute;
+	 position: absolute;
+    right: 28px;
+    top: 8%;
+	bottom:0;
+	
+}
+.port-link1{
+	 position: absolute;
+    right:60px;
+    top:8%;
+	bottom:0;
+	
 }
 .port-img h4{
 	   
