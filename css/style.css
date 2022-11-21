@@ -36,6 +36,10 @@ header{
 .nav-text{
 	color:#fff;
 }
+.nav-text a{
+	text-decoration:none;
+	color:#fff;
+	}
 .navbar-expand-lg{
 	background-color:#023b6d;
 }
