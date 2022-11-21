@@ -13,7 +13,9 @@
 	background-color:#5bc4f1;
 	border-radius:50px;
 }
-
+.btns.btn-primary{
+	background-color:rgba(25,39,80,0.5);
+}
 header{
 	    position: fixed;
     width: 100%;
@@ -323,12 +325,13 @@ color:#fff;}
     padding-left: 6px;
 }
 .call{
-	background-image:url("images\cta-bg.jpg");
+	background:linear-gradient(rgba(30,38,75,0.8),rgba(30,38,75,0.8)),url('../images/cta-bg.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
-	height:250px;
-	background-color:#2e4160;
-	padding-top: 64px;
+	background-position:center;
+	background-attachment:fixed;
+	height:300px;
+	padding-top:86px;
 }
 .call h3{
 	color:#fff;
