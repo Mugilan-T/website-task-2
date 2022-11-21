@@ -246,11 +246,20 @@ color:#fff;}
 			   color: #37517e;
 }
 .skill-percent p{
-	font-style:italic;
-	margin-bottom:26px;
+	font-size:12px;
+	margin-bottom:0px;
+	color:#37517e;
+	font-weight: 600;
 	}
+.skill-percent .s1{
+	margin-bottom:20px;
+	font-size:18px;
+	font-style:italic;
+	color:#1b1b1b;
+	font-weight:400;
+}	
 .progress{
-	margin-bottom:38px;
+	margin-bottom:24px;
 }
 .service{
 	background-color:#f3f5fa;
