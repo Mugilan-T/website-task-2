@@ -231,7 +231,7 @@ color:#fff;}
 	border-radius:1px;
 }
 .aboutus-img img{
-	width:650px;
+	width:100%;
 }
 .aboutus-img{padding-top:50px;}
 .skill-img img{
@@ -323,7 +323,7 @@ color:#fff;}
     padding-left: 6px;
 }
 .call{
-	background-image:url('images\cta-bg.jpeg');
+	background-image:url("images\cta-bg.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:250px;
