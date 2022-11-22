@@ -103,8 +103,9 @@ header{
 }
 .dropdown-menu:hover .dropdown-item{color:#47b2e4;}
 .deepdropdown:hover .dropdown-item{color:#47b2e4;}
-.banner-content{background-color:#023b6d;
-        height:525px;
+.banner-content{
+	background-color:#023b6d;
+    padding-bottom:20px;
 
 }
 
@@ -151,7 +152,8 @@ color:#fff;}
 }
 .client{
 	background-color:#f3f5fa;
-	height:96px;
+	padding-bottom: 24px;
+    padding-top: 6px;
 }
 
 .logos:hover img{
@@ -204,6 +206,7 @@ color:#fff;}
 }
 .aboutus{
 	background-color:#f3f5fa;
+	padding-bottom:20px;
 }
 .accordion-item{
 	margin-bottom:16px;
@@ -241,6 +244,7 @@ color:#fff;}
 }
 .skills{
 	padding-top:40px;
+	padding-bottom:20px;
 }
 .skill-percent h1{
 	           font-weight: 700;
@@ -266,7 +270,7 @@ color:#fff;}
 .service{
 	background-color:#f3f5fa;
 	margin-top:40px;
-	height:500px;
+	padding-bottom:30px;
 }
 .service-head{
 	text-align:center;
@@ -330,8 +334,8 @@ color:#fff;}
 	background-size:cover;
 	background-position:center;
 	background-attachment:fixed;
-	height:300px;
-	padding-top:86px;
+	padding-bottom:120px;
+	padding-top:120px;
 }
 .call h3{
 	color:#fff;
@@ -516,6 +520,7 @@ color:#fff;}
 	box-shadow: 1px 1px 6px #ccc;
     padding: 24px 12px 27px 20px;
     align-items:center;	
+	border-radius:5px;
 	background-color:#fff;
 	transition: margin 1s ease;
     
@@ -587,6 +592,7 @@ color:#fff;}
 .price-tab p{ margin-bottom: 38px;}
 .price-list{
 	box-shadow: 1px 1px 6px #ccc;
+	border-radius:5px;
     height: 450px;
     padding-left: 30px;
     padding-top: 38px;
@@ -705,7 +711,7 @@ color:#fff;}
 }
 .contact-address{
 	box-shadow:1px 1px 6px #ccc;
-	height:520px;
+	padding-bottom:16px;
 	padding-top: 26px;
 	padding-left: 38px;
 	border-top:3px solid #47b2e4;
@@ -713,7 +719,7 @@ color:#fff;}
 }
 .user{
 	box-shadow:1px 1px 6px #ccc;
-	height:520px;
+	padding-bottom:39px;
 	border-top:3px solid #47b2e4;
 	border-bottom:3px solid #47b2e4;
 }
@@ -794,7 +800,8 @@ color:#fff;}
 .search-txt {
 	text-align:center;
 	background-color:#f3f5fa;
-	height: 178px;
+	padding-bottom: 43px;
+    padding-top: 13px;
 	margin-top:20px;
 }
 .search-txt h3{
@@ -870,7 +877,12 @@ background-color: #0dcaf0;
 .footer-txt p{color:#fff;}
 .footer-link p{color:#fff;}
 .footer-link a{text-decoration:none;}
-footer{background-color:#023b6d;}
+footer{
+	background-color:#023b6d;
+    padding-bottom: 8px;
+    padding-top: 16px;
+	
+	}
 .price-list.active{
 	    border-top: #47b2e4;
 		
