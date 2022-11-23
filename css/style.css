@@ -750,7 +750,7 @@ color:#fff;}
 }
 .user{
 	box-shadow:1px 1px 6px #ccc;
-	padding-bottom:39px;
+	padding: 35px 23px 62px 16px;
 	border-top:3px solid #47b2e4;
 	border-bottom:3px solid #47b2e4;
 }
@@ -758,9 +758,7 @@ color:#fff;}
 	margin-left:16px;
 	    margin-bottom: 28px;
 }
-.form-control{
-	width:96%;
-}
+
 .mb-3{
 	    margin-left: 10px;
 		padding-bottom:28px;
