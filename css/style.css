@@ -763,9 +763,12 @@ color:#fff;}
 	    margin-left: 10px;
 		padding-bottom:28px;
 }
-.msg{margin-left: 17px;}
+.msg{
+    margin-left: 11px;
+    margin-bottom: 5px;
+}
 .form-floating{
-	margin-left:12px;
+	
     margin-bottom: 32px;
 }
 .location{
