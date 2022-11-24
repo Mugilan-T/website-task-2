@@ -15,6 +15,8 @@
 }
 .btns.btn-primary{
 	background-color:rgba(25,39,80,0.5);
+	border-color:#fff;
+	padding: 9px 38px 10px 38px;
 }
 header{
 	    position: fixed;
@@ -27,7 +29,7 @@ header{
     padding-left: 18px;
     padding-right: 12px;
 }
-.btns:hover{background-color:#209dd8;color:#fff;}
+.btns:hover{background-color:#209dd8;color:#fff;border-color:#209dd8;}
 .me-auto{
 	margin-left:200px;
 }
@@ -170,7 +172,7 @@ header{
 }
 .banner-pd{
 	   padding-bottom:40px;
-	   padding-top:40px;
+	   padding-top:76px;
 }
 
 .banner-pic{
@@ -197,9 +199,7 @@ header{
 }
 
 
-.banner-img{
-    padding-top: 77px;
-}
+
 .banner-content a{
 	text-decoration:none;
 	color:#fff;
@@ -213,11 +213,13 @@ header{
 }
 .banner-text h1{
 	font-size:49px;
+	font-weight:700;
 	color:#fff;
 	padding-bottom:12px;
 }
-.banner-text{padding-top:96px;
-color:#fff;}
+.banner-text{
+         color:#fff;
+}
 .banner-img img{
 	width:100%;
 }
@@ -430,6 +432,8 @@ color:#fff;}
 .call h3{
 	color:#fff;
 	font-family: "Jost", sans-serif;
+	font-weight: 600;
+    font-size: 28px;
 }
 .call p{
 	color:#fff;
@@ -758,6 +762,7 @@ color:#fff;}
 .btn-outline-info.active{
 	background-color:#0dcaf0;
 	color:#fff;
+	
 }
 .btn-outline-info.active:hover{
 	background-color:#23a3df;
