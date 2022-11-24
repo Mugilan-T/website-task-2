@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Website Layout 2</title>
+<title>Website 2</title>
 
 </head>
 <body>
@@ -40,28 +40,23 @@
 		<li class="nav-item">
           <a class="nav-link" href="#">Team</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
-			<a class="dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Deep Dropdown
-          </a>
-		   <ul class="deepdropdown" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
-            <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
-            <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
-            <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
-            <li><a class="dropdown-item" href="#">Drop Down 5</a></li>
-		  </ul>	
-            <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
-           
-            <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
-			<li><a class="dropdown-item" href="#">Drop Down 4</a></li>
-          </ul>
-        </li>
+        <li class="nav-item dropdown"><a class="nav-link" href="#" class="nav-list">Drop Down<i class="fa-solid fa-angle-down"></i></a>
+				         <ul class="dropdown-nav">
+						      <li><a  href="#">Drop Down 1</a></li>
+							  <li class="dropdown-sub"><a href="#">Deep Drop Down<i class="fa-solid fa-angle-right"></i></a>
+							     <ul class="dropdown-nav-sub">
+								     <li><a  href="#">Drop Down 1</a></li>
+							         <li><a href="#">Drop Down 2</a></li>
+									 <li><a href="#">Drop Down 3</a></li>
+									 <li><a href="#">Drop Down 4</a></li>
+	   								 <li><a href="#">Drop Down 5</a></li>
+		                          </ul>					  
+							    
+							  </li>
+							  <li><a href="#">Drop Down 3</a></li>
+							  <li><a href="#">Drop Down 4</a></li>
+							  <li><a href="#">Drop Down 5</a></li>
+						  </ul>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
@@ -742,7 +737,7 @@
     <div class="search-txt">
 	   <h3>Join Our Newsletter</h3>
 	   <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-	   <form>
+	   <form class="form">
 	      <input type="email" name="email">
 		  <button type="button" class="btn btn-light active">Subscribe</button>
 	   </form>
