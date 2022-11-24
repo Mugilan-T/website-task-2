@@ -515,41 +515,20 @@ header{
 	height:auto;
 	
 }
-.portfolio-imgs img{
-	width:100%;
-	height:auto;
-	
-}
+
 .portfolio-img{
 	position:relative;
 	overflow:hidden;
 	margin-bottom:18px;
 	
 }
-.portfolio-imgs{
-	position:relative;
-	overflow:hidden;
-	margin-bottom:18px;
-	
-}
+
 .port{
-	position: absolute;
-    height:100%;
-    width: 100%;
-    top: 70%;
-    left: 0;
+	
 	opacity:0;
 	transition:all 0.4s ease;
 }
-.ports{
-	position: absolute;
-    height:100%;
-    width: 100%;
-    top:85%;
-    left: 0;
-	opacity:0;
-	transition:all 0.4s ease;
-}
+
 
 .portfolio-img:hover .port{
 	opacity:1;
@@ -566,10 +545,14 @@ header{
 	transition:all 0.3s ease;
 	}	
 .port-img{
-	padding-left: 18px;
+	padding-left: 14px;
     padding-bottom: 10px;
-	background-color:rgba(7 25 83 / 42%);
-	position:relative;
+    background-color: rgba(7 25 83 / 42%);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
 }
 .port-img a:hover{color:#47b2e4;}
 .port-link{
