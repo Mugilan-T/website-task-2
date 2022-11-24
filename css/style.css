@@ -42,9 +42,7 @@ header{
 	text-decoration:none;
 	color:#fff;
 	}
-.navbar-expand-lg{
-	background-color:#023b6d;
-}
+
 
 .navbar-light .navbar-nav .nav-link{
 	color:#fff;
@@ -169,6 +167,33 @@ header{
 	background-color:#023b6d;
     padding-bottom:20px;
 
+}
+.banner-pd{
+	   padding-bottom:40px;
+	   padding-top:40px;
+}
+
+.banner-pic{
+  animation-name:anime;
+  animation-duration:8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime {
+  0% {
+	  transform:translateY(2%);
+	  }
+  25%{
+	  transform:translateY(-2%);
+	  }
+  50%{
+	  transform:translateY(2%);
+	  }
+   75%{
+	   transform:translateY(-2%);
+	   }
+  100% {transform:translateY(2%);
+  }
 }
 
 
