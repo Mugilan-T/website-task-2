@@ -528,8 +528,36 @@ header{
 	opacity:0;
 	transition:all 0.4s ease;
 }
-
-
+/*.position{position:relative;}
+.port-size{
+	position: absolute;
+    right: 0;
+    top: 23%;
+}
+.port-size1{
+	    position: absolute;
+    left: 33%;
+    top: 28%;
+}
+.port-size2{
+	position: absolute;
+    right: 0;
+    top: 50%;
+}
+.port-size3{
+	position: absolute;
+    right: 0;
+    top: 78%;
+}
+.port-size4{
+	position: absolute;
+    left: 33%;
+    top: 88%;
+}
+.portfolio {
+    padding-bottom: 162px;
+}
+*/
 .portfolio-img:hover .port{
 	opacity:1;
 }
