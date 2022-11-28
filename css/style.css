@@ -22,6 +22,7 @@ header{
 	    position: fixed;
     width: 100%;
     z-index: 3;
+	background-color: #333b5a47;
 }
 .span{color: #fff;
     font-size: 20px;}
@@ -122,7 +123,7 @@ header{
 	
 }
 .btn-primary{
-	background-color:#023b6d;
+	background-color: #333b5a47;
 	border-radius:50px;
 }
 .btn-primary:hover {
@@ -661,8 +662,12 @@ header{
 .team-box:hover{
 	 margin:-10px 0px 0px 0px;
 }
+.team-img{
+	  width: 160px;
+    border-radius: 50%;
+}
 .team-img img{
-	    width: 154px;
+	    width:100%;
      height: auto;
     border-radius:80px;
 }
@@ -846,6 +851,7 @@ header{
 .contact-address{
 	box-shadow:1px 1px 6px #ccc;
 	padding-bottom:16px;
+	padding-right:36px;
 	padding-top: 26px;
 	padding-left: 38px;
 	border-top:3px solid #47b2e4;
@@ -853,7 +859,7 @@ header{
 }
 .user{
 	box-shadow:1px 1px 6px #ccc;
-	padding: 35px 23px 20px 16px;
+	padding: 35px 23px 31px 16px;
 	border-top:3px solid #47b2e4;
 	border-bottom:3px solid #47b2e4;
 }
@@ -863,11 +869,11 @@ header{
 }
 
 .mb-3{
-	    margin-left: 10px;
+	    
 		padding-bottom:28px;
 }
 .msg{
-    margin-left: 11px;
+    
     margin-bottom: 5px;
 }
 .form-floating{
@@ -1017,6 +1023,7 @@ footer{
 	background-color:#023b6d;
     padding-bottom: 8px;
     padding-top: 16px;
+	margin-top:15px;
 	
 	}
 .price-list.active{
