@@ -16,7 +16,7 @@
 .btns.btn-primary{
 	background-color:rgba(25,39,80,0.5);
 	border-color:#fff;
-	padding: 9px 38px 10px 38px;
+	
 }
 header{
 	    position: fixed;
@@ -35,7 +35,7 @@ header{
 	margin-left:200px;
 }
 .nav-item{
-	    padding: 7px 17px 10px 9px;
+	    padding: 7px 17px 10px 5px;
 		color:#fff;
 }
 .nav-text{
@@ -56,7 +56,7 @@ header{
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
     color:#47b2e4;
 }
-/*.dropdown:hover .deepdropdown{color:#47b2e4;}*/
+
 .dropdown{
 	position:relative;
 	color:#fff;
@@ -129,7 +129,6 @@ header{
 .btn-primary:hover {
     color: #fff;
     background-color: #5bc4f1;
-    /* border-color: #0a58ca; */
 }
 .btn-outline-primary {
     color: #47b2e4;
@@ -234,7 +233,7 @@ header{
 }
 .logos{
 	margin-top:10px;
-
+   
 }
 .logos img:hover{
     filter:grayscale(0);
@@ -475,23 +474,13 @@ header{
 .skill-percent span{
 	color:#37517e;
 }
-/*.nav-link{
-	color:#444444;
+.about {
+    padding-bottom: 20px;
 }
-.nav-link:hover{
-	
+.nav-items .nav-linkactive{
 	color:#fff;
-	background-color:#47b2e4;
-	border-radius:50px;
 }
-.nav-link.active{
-	
-	color:#fff;
-	background-color:#47b2e4;
-	border-radius:20px;
-}*/
-.nav-items .nav-linkactive{color:#fff;}
-.nav-items a{
+	.nav-items a{
 	border-radius:50px;
 	line-height:1;
 	margin-left:5px;
@@ -529,36 +518,7 @@ header{
 	opacity:0;
 	transition:all 0.4s ease;
 }
-/*.position{position:relative;}
-.port-size{
-	position: absolute;
-    right: 0;
-    top: 23%;
-}
-.port-size1{
-	    position: absolute;
-    left: 33%;
-    top: 28%;
-}
-.port-size2{
-	position: absolute;
-    right: 0;
-    top: 50%;
-}
-.port-size3{
-	position: absolute;
-    right: 0;
-    top: 78%;
-}
-.port-size4{
-	position: absolute;
-    left: 33%;
-    top: 88%;
-}
-.portfolio {
-    padding-bottom: 162px;
-}
-*/
+
 .portfolio-img:hover .port{
 	opacity:1;
 }
@@ -734,6 +694,7 @@ header{
     padding-bottom: 36px;
     padding-left: 30px;
     padding-top: 38px;
+	margin-bottom:14px;
 }
 .price-list h3,h4{
 	color:#37517e;
@@ -859,7 +820,7 @@ header{
 }
 .user{
 	box-shadow:1px 1px 6px #ccc;
-	padding: 35px 23px 31px 16px;
+	padding: 35px 23px 40px 16px;
 	border-top:3px solid #47b2e4;
 	border-bottom:3px solid #47b2e4;
 }
@@ -964,7 +925,6 @@ background-color: #0dcaf0;
     position: absolute;
     top: 0;
     bottom: 0;
-    /* padding: 3px 20px 3px 0px; */
     left: 63%;
 }
 .btn-light.active:hover{

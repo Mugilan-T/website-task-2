@@ -1,0 +1,288 @@
+/*---ipad---*/
+/*@media(min-width:768px){
+	.container{
+	max-width:720px;
+}
+
+.col-md-1{
+	width:8.33%;
+	
+}
+.col-md-2{
+	width:16.66%;
+	
+}
+.col-md-3{
+	width:25%;
+	
+}
+.col-md-4{
+	width:33.33%;
+	
+}
+.col-md-5{
+	width:41.66%;
+	
+}
+.col-md-6{
+	width:50%;
+	
+}
+.col-md-7{
+	width:58.33%;
+	
+}
+.col-md-8{
+	width:66.66%;
+	
+}
+.col-md-9{
+	width:75%;
+	
+}
+.col-md-10{
+	width:83.33%;
+	
+}
+.col-md-11{
+	width:91.66%;
+	
+}
+.col-md-12{
+	width:100%;
+	
+}	
+	
+/*.portfolio {
+       padding-bottom: 920px;
+}	
+.position{position:relative;}
+.banner-text{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:30px;
+}	
+.logos{
+	padding-bottom:14px;
+}
+.about{
+	padding-bottom:34px;
+}	
+.skill-img{
+	padding-bottom:20px;
+}
+.call-txt{
+	text-align:center;
+}
+/*.port-size{
+	position:absolute;
+	right:0;
+	top:43%;
+}
+.port-size2 {
+	position:absolute;
+   right: 0%;
+    top: 180%;
+}
+.port-size3 {
+	position:absolute;
+   left: 0;
+    top: 192%;
+}
+.port-size1 {
+	position:absolute;
+   left: 50%;
+    top: 87%;
+}
+.port-size4 {
+	position:absolute;
+   left: 50%;
+    top: 222%;
+}
+.port-size5 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+.search-txt input {
+    width: 80%;
+}
+.btn-light.active {
+	left:77%;
+}*/
+}
+
+/*..Large device...*//*
+@media(min-width:1400px){
+	.container{
+	max-width:1320px;
+}
+
+.col-lg-1{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-lg-2{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-lg-3{
+	width:25%;
+	padding:0 15px;
+}
+.col-lg-4{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-lg-5{
+	width:41.66%;
+	padding:0 15px;
+}
+.col-lg-6{
+	width:50%;
+	padding:0 15px;
+}
+.col-lg-7{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-lg-8{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-lg-9{
+	width:75%;
+	padding:0 15px;
+}
+.col-lg-10{
+	width:83.33%;
+	padding:0 15px;
+}
+.col-lg-11{
+	width:91.66%;
+	padding:0 15px;
+}
+.col-lg-12{
+	width:100%;
+	padding:0 15px;
+}
+.port{
+	
+	opacity:0;
+	transition:all 0.4s ease;
+}
+.position{position:relative;}
+.port-size{
+	position: absolute;
+    right: 0;
+    top: 23%;
+}
+.port-size1{
+	    position: absolute;
+    left: 33%;
+    top: 28%;
+}
+.port-size2{
+	position: absolute;
+    right: 0;
+    top: 50%;
+}
+.port-size3{
+	position: absolute;
+    right: 0;
+    top: 78%;
+}
+.port-size4{
+	position: absolute;
+    left: 33%;
+    top: 88%;
+}
+.portfolio {
+    padding-bottom: 162px;
+}
+}
+
+/*..mobile device...*//*
+@media(min-width:786px){
+	
+	.row >*{width:100%;}
+
+.col-sm-1{
+	width:8.33%;
+	
+}
+.col-sm-2{
+	width:16.66%;
+	
+}
+.col-sm-3{
+	width:25%;
+	
+}
+.col-sm-4{
+	width:33.33%;
+	
+}
+.col-sm-5{
+	width:41.66%;
+	
+}
+.col-sm-6{
+	width:50%;
+	
+}
+.col-sm-7{
+	width:58.33%;
+	
+}
+.col-sm-8{
+	width:66.66%;
+	
+}
+.col-sm-9{
+	width:75%;
+	
+}
+.col-sm-10{
+	width:83.33%;
+	
+}
+.col-sm-11{
+	width:91.66%;
+	
+}
+.col-sm-12{
+	width:100%;
+	
+}	
+	
+	
+
+
+.port-size{
+	position: relative;
+
+}
+.port-size1{
+	    position: relative;
+    
+}
+.port-size2{
+	position: relative;
+   
+}
+.port-size3{
+	position: relative;
+    
+}
+.port-size4{
+	position: relative;
+    
+}
+.portfolio {
+    padding-bottom: 162px;
+}
+
+
+}
